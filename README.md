@@ -5,7 +5,6 @@ The practical real-time power demand datasets named Industrial-Power-Demand-Data
 └── trainingset
 ```
 The original attributes in the dataset as shown in the table below：
-###### table
 Attributes|Description
 ------------- | -------------
 Date | YYYY/MM/DD HH:MM:SS
