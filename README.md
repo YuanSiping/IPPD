@@ -4,7 +4,8 @@ The practical real-time power demand datasets named Industrial-Power-Demand-Data
 ├── testset
 └── trainingset
 ```
-And the original attributes in the dataset as shown in the table below：
+The original attributes in the dataset as shown in the table below：
+###### table
 Attributes|Description
 ------------- | -------------
 Date | YYYY/MM/DD HH:MM:SS
@@ -15,6 +16,7 @@ S_DEM | Three-phase recent power demand updated every second
 Hour | 0 ~ 23 corresponds to 24 hour of the day
 Month | 1 ~ 12 corresponds to January ~ December
 Day of Week| 1 ~ 7 corresponds to Monday ~ Sunday
+
 there are two observations about the power demand. Present power demand T_DEM, the value for the last completed interval, which is used to predict and compare with the maximum demand limit. Recent power demand S_DEM, which is the real time value measured by the field data acquisition meters, and which represents the trend in the near future.
 ###### trainingset
 This is the raw data collected from May 4 to July 15, 2018. According to that the step size of the sliding time block for power demand is set to 1 minute, when using the trainingset to train model for Ultra-short-term industrial power demand forecasting, you could to sample the records of trainingset at 1 minute intervals.
