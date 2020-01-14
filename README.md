@@ -1,5 +1,8 @@
 # Industrial-Power-Demand-Dataset
-The practical real-time power demand datasets named IPDD(Industrial-Power-Demand-Dataset) is collected form a steel plant, which consists of three-phase electric current, three-phase active power and three-phase demand active power of the entire plant, and the interval of this collected raw data is 30 seconds. The structure of IPDD as follows:
+The practical real-time power demand datasets named IPDD(Industrial-Power-Demand-Dataset) is collected form a steel plant, which consists of three-phase electric current, three-phase active power and three-phase demand active power of the entire plant, and the interval of this collected raw data is 30 seconds. 
+This dataset is used in a research of ultra-short-term industrial power demand forecasting, and the work has been published on IEEE Trans. on Power System. It is appreciated to cite this paper if you like to use this dataset.
+Mao Tan, Siping Yuan, Shuaihu Li, Yongxin Su, Hui Li, Feng He, Ultra-short-term industrial power demand forecasting using LSTM based hybrid ensemble learning, IEEE Trans. on Power System, 2019, doi:10.1109/TPWRS.2019.2963109
+The structure of IPDD as follows:
 ```
 ├── testset
 └── trainingset
